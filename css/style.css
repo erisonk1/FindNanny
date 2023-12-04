@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+    width: 170px;
+}
+header{
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 50px;
+    border-bottom: 1px solid rgb(199, 199, 199);
+    position: relative;
+}
+ul{
+    display: flex;
+    gap: 20px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+header > ul > li {
+    list-style: none;
+    color: #894aff;
+    font-size: 17px;
+    cursor: pointer;
+}
+.menu li:hover {
+    color: black;
+}
+
+.search {
+    width: 250px;
+    border-radius: 20px;
+    border: 1px solid #894aff;
+    height: 40px;
+    padding: 0px 20px;
+
+    text-decoration: none;
+    outline-width: 40px;
+
+}
+.search-logo{
+    position: absolute;
+    width: 30px;
+    left: 0;
+}
+
+.home{
+    background-color:#894aff ;
+    display: flex;
+    justify-content:center;
+    gap: 200px;
+    width: 100%;
+    align-items: center;
+    z-index: 1;
+}
+
+.title{
+    font-size: 50px;
+    width: 400px;
+    color: white;
+}
+
+.crianca {
+    width: 500px;
+}
+.circles{
+    display: flex;
+    gap: 20px;
+}
+.circle1{
+    width: 75px;
+    background-color: white;
+    height: 75px;
+    border-radius: 100%;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.circle2{
+    width: 50px;
+    background-color: white;
+    height: 50px;
+    border-radius: 100%;
+    margin-bottom: 100px;
+}
+.circle3{
+    width: 50px;
+    background-color: white;
+    height: 50px;
+    border-radius: 100%;
+    margin-bottom: 100px;
+}
+.entrar{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.window-entrar{
+    position: absolute;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    list-style: none;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+    width: 200px;
+    top: 45px;
+    gap: 30px;
+    display: none;
+}
+
+.window-cadastrar{
+    position: absolute;
+    z-index: 200;
+    flex-direction: column;
+    display: none;
+}
+.window-entrar li{
+    font-size: 15px;
+}
