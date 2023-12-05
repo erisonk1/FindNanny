@@ -1,3 +1,3 @@
-export function janelas(){
-    
+export function janelas(range){
+   console.log(range.value)
 }

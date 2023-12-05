@@ -1,11 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+    --main-color: #894aff;
+  }
 
+html {
+    overflow-x: hidden;
+}
 
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    text-decoration: none;
 }
 
 .logo {
@@ -30,18 +37,20 @@ ul{
 
 header > ul > li {
     list-style: none;
-    color: #894aff;
+    color: var(--main-color);
     font-size: 17px;
     cursor: pointer;
 }
-.menu li:hover {
+
+li:hover {
     color: black;
 }
+
 
 .search {
     width: 250px;
     border-radius: 20px;
-    border: 1px solid #894aff;
+    border: 1px solid var(--main-color);
     height: 40px;
     padding: 0px 20px;
 
@@ -56,13 +65,14 @@ header > ul > li {
 }
 
 .home{
-    background-color:#894aff ;
+    background-color:var(--main-color);
     display: flex;
     justify-content:center;
     gap: 200px;
     width: 100%;
     align-items: center;
     z-index: 1;
+    height: 500px;
 }
 
 .title{
@@ -128,4 +138,120 @@ header > ul > li {
 }
 .window-entrar li{
     font-size: 15px;
+}
+.filter-bar {
+    width: 100%;
+    height: 80px;
+    border-bottom: solid 2px rgb(218, 218, 218);
+    display: flex;
+    justify-content:first baseline;
+    align-items: center;
+    padding: 0px 70px;
+    gap: 30px;
+}
+.input-idade {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+    width: 190px;
+}
+.divide-age{
+    display: flex;
+    gap: 10px;
+}
+.divide-age p{
+width: 23px;
+}
+
+.div-sexo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.div-especialidade {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+.div-distancia {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.range-baba {
+    width: 131px;
+}
+.img-baba{
+    width: 40%;
+    border-radius: 100%;
+}
+.cards{
+    width: 100%;
+    justify-content: center;
+    padding: 60px 100px 200px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.card-baba {
+position: relative;
+width: 350px;
+height: 350px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+border-radius: 20px;
+border: solid 1px black;
+cursor: pointer;
+background-color: #f8f7f7;
+color: rgb(0, 0, 0);
+transition: all ease-in-out 0.5s;
+}
+.card-baba:hover{
+    transform: scale(1.05);
+}
+.infos-baba {
+    display: flex;
+    gap: 10px;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-especialidade-baba {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+label {
+    font-weight: 600;
+}
+
+.favorite-icon {
+    width: 20px;
+}
+
+
+footer {
+    width: 100%;
+    height: 300px;
+    background-color: var(--main-color);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+footer h1{
+    text-align: center;
+}
+
+footer h1 span{
+    color: gold;
 }
