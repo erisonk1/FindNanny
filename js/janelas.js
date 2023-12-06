@@ -16,4 +16,18 @@ export function favOn(fav){
    else{
       fav.src = "./imgs/favourite-off.svg"
    }
+
+}
+
+
+export function identificaCard(e, ModalName){
+   console.log(e)
+   const urlType = fetch("../DataBase/usersBaba.json");
+   Promise.resolve(urlType)
+  .then((response) => response.json())
+  .then((response) => {
+   const dados = response
+   console.log(dados[e.id])
+   // ModalName.innerText = e.id.nome
+  })
 }
