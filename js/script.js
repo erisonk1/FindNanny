@@ -4,7 +4,7 @@ let DistanciaBaba;
 let ExpBaba;
 let EspBaba;
 
-const urlType = fetch("../DataBase/usersBaba.json");
+const urlType = fetch("./DataBase/usersBaba.json");
 Promise.resolve(urlType)
   .then((response) => response.json())
   .then((response) => {
