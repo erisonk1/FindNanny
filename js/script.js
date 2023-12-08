@@ -3,8 +3,8 @@ let IdadeBaba;
 let DistanciaBaba;
 let ExpBaba;
 let EspBaba;
-
-const urlType = fetch("./DataBase/usersBaba.json");
+let card;
+const urlType = fetch("./js/usersBaba.json");
 Promise.resolve(urlType)
   .then((response) => response.json())
   .then((response) => {
@@ -21,7 +21,6 @@ Promise.resolve(urlType)
         
     })
   })
-
 
   function criaCard(idBaba, NomeBaba, IdadeBaba, DistanciaBaba, ExpBaba, EspBaba) {
     const containerMain = document.querySelector(".separa")
@@ -47,8 +46,12 @@ Promise.resolve(urlType)
     }
     
 
-    
-   
-  
-
-  
+    function procuraCard(){
+      card = document.querySelectorAll('.card-baba');
+      console.log(card)
+    }
+ 
+        
+    function aa(){
+      console.log('oi')
+    }

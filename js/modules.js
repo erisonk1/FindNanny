@@ -2,7 +2,6 @@ import { rangeF } from "./range.js"
 import { closeModal } from "./janelas.js"
 import { openModal } from "./janelas.js"
 import { favOn } from "./janelas.js"
-import { identificaCard } from "./janelas.js"
 const RangeFilho = document.querySelector(".range-filho")
 const RangeBaba = document.querySelector(".range-baba")
 const AgeFilho = document.querySelector(".show-age-filho")
@@ -29,10 +28,4 @@ cards.forEach((card) =>{
 card.addEventListener("click",(() => {
     openModal(modal)
 }))
-})
-
-cards.forEach((i)=> {
-    i.addEventListener("click",() => {
-        identificaCard(i, ModalName)
-    })
 })

@@ -1,0 +1,72 @@
+[
+    {
+        "id": "0",
+        "nome": "Jeniffer",
+        "cria": [
+            "7",
+            "14"
+        ],
+        "idade": "20",
+        "exp": "2",
+        "esp": "Crianças Autistas",
+        "desc": "Olá! Eu sou a Jeniffer, será um prazer cuidar do(s) seu(s) filho(s), sou uma amante da música e amo animais!",
+        "distancia": "2,5",
+        "sexo": "fem"
+    },
+    {
+        "id": "1",
+        "nome": "Luana",
+        "cria": [
+            "7",
+            "14"
+        ],
+        "idade": "20",
+        "exp": "2",
+        "esp": "Crianças Imperativas",
+        "desc": "Olá! Eu sou a Luana, será um prazer cuidar do(s) seu(s) filho(s), sou uma amante da música e amo animais!",
+        "distancia": "6,3",
+        "sexo": "fem"
+    },
+    {
+        "id": "2",
+        "nome": "Erison",
+        "cria": [
+            "7",
+            "14"
+        ],
+        "idade": "19",
+        "exp": "1",
+        "esp": "Sem Especialidade",
+        "desc": "Olá! Eu sou o Erison, será um prazer cuidar do(s) seu(s) filho(s), sou um amante da música e amo animais!",
+        "distancia": "6",
+        "sexo": "mas"
+    },
+    {
+        "id": "3",
+        "nome": "Emerson",
+        "cria": [
+            "7",
+            "14"
+        ],
+        "idade": "21",
+        "exp": "3",
+        "esp": "Crianças Extrovertidas",
+        "desc": "Olá! Eu sou o Emerson, será um prazer cuidar do(s) seu(s) filho(s), sou um amante da música e amo animais!",
+        "distancia": "6,5",
+        "sexo": "fem"
+    },
+    {
+        "id": "4",
+        "nome": "Ayla",
+        "cria": [
+            "7",
+            "14"
+        ],
+        "idade": "42",
+        "exp": "7",
+        "esp": "Crianças Introvertidas",
+        "desc": "Olá! Eu sou a Ayla, será um prazer cuidar do(s) seu(s) filho(s), sou uma amante da música e amo animais!",
+        "distancia": "6,5",
+        "sexo": "fem"
+    }
+]
